@@ -1,0 +1,20 @@
+# Elemental Knights
+
+> Elemental Knights é um RPG de estratégia para Android, gratuito, com batalhas em tempo real e visual em pixel art. Desenvolvido pela IronTyro (Brasil). Disponível em português e inglês. Lançamento na Google Play a caminho; testes abertos pelo Instagram @elementalknights.
+
+## O jogo
+- 4 Classes, escolhidas uma vez: Cavaleiro (Vida e Defesa), Arqueiro (Velocidade e Precisão), Maga (dano) e Ladra (Evasão).
+- 6 Elementos em roda — Fogo › Gelo › Natureza › Terra › Raio › Água › Fogo. Com vantagem, as habilidades causam +50% de dano; com desvantagem, −50%.
+- Cada Elemento tem um efeito especial com intensidade I–V: Queimadura (Fogo), Congelamento (Gelo), Envenenamento (Natureza), Abalo (Terra), Paralisia (Raio), Lentidão (Água).
+- Estratégia Elemental: para o Elemento escolhido, 2 Passivas e 3 Ativas (incluindo a Ultimate).
+- Batalha: barra ATB (azul) enche conforme a Velocidade; o herói usa a primeira habilidade da Fila (3 lugares) ou um Ataque Básico.
+- Modos: Modo História (3 Capítulos com Chefes), Jornada Aleatória, Torre (reinicia a cada 15 dias) e Dungeon (tabuleiro de dados com 60 casas, reinicia toda semana).
+- Mapas de Entherya: Arredores do Reino, Floresta Densa, Ruínas no Deserto, Praia Leste, Floresta de Pinheiros na Neve, Fábrica Abandonada, Mina de Metal Magnetizado. Cada mapa dá +10% de dano a dois Elementos.
+- Progressão: Nível e Pontos de atributo, Maestria por Elemento, equipamentos de Básico a Mítico (Forja da Yelena, Combinação, Mercado entre jogadores), Elixires de Maestria no Caldeirão.
+- Bestiário com 61 criaturas que aparecem como silhueta até serem enfrentadas.
+
+## Links
+- Site oficial: https://elementalknights.com.br/
+- Como jogar (guia completo): https://elementalknights.com.br/como-jogar.html
+- Instagram (novidades e testes): https://www.instagram.com/elementalknights/
+- Contato: irontyro.games@gmail.com

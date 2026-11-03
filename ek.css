@@ -513,3 +513,36 @@ a:focus-visible, video:focus-visible { outline: 2px solid var(--gold-hi); outlin
 /* cores das barras citadas no texto (iguais às do jogo) */
 .step b.hp { color: #6fdc6f; }
 .step b.atb { color: #6fb6ff; }
+
+/* --- Instagram */
+svg.ig { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; flex: none; }
+svg.ig .dot { fill: currentColor; stroke: none; }
+.topbar nav a.nav-ig { display: inline-flex; align-items: center; color: var(--gold-hi); opacity: 1; }
+@media (max-width: 640px) { .topbar nav a.nav-ig { display: inline-flex; } }
+.ig-hero {
+  display: inline-flex; align-items: center; gap: 10px; margin-top: 22px;
+  color: var(--ink); text-decoration: none; font-size: 15px;
+  background: #0b0812b3; border: 1px solid #ffffff22; border-radius: 999px; padding: 9px 18px;
+}
+.ig-hero b { color: var(--gold-hi); }
+.ig-hero svg.ig { color: #f5a3c7; }
+.ig-hero:hover, .ig-hero:focus-visible { border-color: #f5a3c7; }
+.band-ig { background: radial-gradient(ellipse at 15% 50%, #c13584 0%, transparent 55%), radial-gradient(ellipse at 90% 40%, #f77737 0%, transparent 50%), var(--night-2); background-blend-mode: soft-light, soft-light, normal; }
+.ig-box { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+@media (max-width: 860px) { .ig-box { grid-template-columns: 1fr; } }
+.ig-text .intro b { color: var(--gold-hi); }
+.cta-ig { display: inline-flex; align-items: center; gap: 10px; }
+.cta-ig svg.ig { width: 22px; height: 22px; }
+.ig-preview { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; border-radius: 16px; overflow: hidden; border: 1px solid #ffffff22; transition: transform .25s ease; }
+.ig-preview:hover { transform: translateY(-3px); }
+.ig-preview img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+
+/* --- Perguntas frequentes */
+.faq { display: grid; gap: 10px; max-width: 860px; }
+.qa { background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; padding: 0 18px; }
+.qa[open] { border-color: #d8a54b77; }
+.qa summary { cursor: pointer; list-style: none; padding: 16px 0; font: 700 17px/1.35 var(--display); color: var(--ink); display: flex; justify-content: space-between; gap: 12px; }
+.qa summary::-webkit-details-marker { display: none; }
+.qa summary::after { content: "+"; color: var(--gold-hi); font-size: 22px; line-height: 1; }
+.qa[open] summary::after { content: "−"; }
+.qa p { margin: 0 0 16px; color: var(--muted); }
