@@ -2,16 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://elementalknights.com.br/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image><image:loc>https://elementalknights.com.br/img/og-elemental-knights.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://elementalknights.com.br/como-jogar.html</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://elementalknights.com.br/img/og-como-jogar.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://elementalknights.com.br/elementos/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://elementalknights.com.br/img/og-elementos.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://elementalknights.com.br/elementos/fogo.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://elementalknights.com.br/img/og-elemento-fogo.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://elementalknights.com.br/elementos/gelo.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://elementalknights.com.br/img/og-elemento-gelo.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://elementalknights.com.br/elementos/natureza.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://elementalknights.com.br/img/og-elemento-natureza.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://elementalknights.com.br/elementos/terra.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://elementalknights.com.br/img/og-elemento-terra.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://elementalknights.com.br/elementos/raio.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://elementalknights.com.br/img/og-elemento-raio.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://elementalknights.com.br/elementos/agua.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://elementalknights.com.br/img/og-elemento-agua.jpg</image:loc></image:image>
   </url>
 </urlset>

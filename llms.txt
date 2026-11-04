@@ -8,7 +8,7 @@
 - Cada Elemento tem um efeito especial com intensidade I–V: Queimadura (Fogo), Congelamento (Gelo), Envenenamento (Natureza), Abalo (Terra), Paralisia (Raio), Lentidão (Água).
 - Estratégia Elemental: para o Elemento escolhido, 2 Passivas e 3 Ativas (incluindo a Ultimate).
 - Batalha: barra ATB (azul) enche conforme a Velocidade; o herói usa a primeira habilidade da Fila (3 lugares) ou um Ataque Básico.
-- Modos: Modo História (3 Capítulos com Chefes), Jornada Aleatória, Torre (reinicia a cada 15 dias) e Dungeon (tabuleiro de dados com 60 casas, reinicia toda semana).
+- Modos: Modo História (4 Capítulos com Chefes; o Capítulo 4, na Floresta Densa, termina no Ent Ancestral, Nível 20), Jornada Aleatória, Torre (reinicia a cada 15 dias) e Dungeon (tabuleiro de dados com 60 casas, reinicia toda semana).
 - Mapas de Entherya: Arredores do Reino, Floresta Densa, Ruínas no Deserto, Praia Leste, Floresta de Pinheiros na Neve, Fábrica Abandonada, Mina de Metal Magnetizado. Cada mapa dá +10% de dano a dois Elementos.
 - Progressão: Nível e Pontos de atributo, Maestria por Elemento, equipamentos de Básico a Mítico (Forja da Yelena, Combinação, Mercado entre jogadores), Elixires de Maestria no Caldeirão.
 - Bestiário com 61 criaturas que aparecem como silhueta até serem enfrentadas.
@@ -16,5 +16,13 @@
 ## Links
 - Site oficial: https://elementalknights.com.br/
 - Como jogar (guia completo): https://elementalknights.com.br/como-jogar.html
+- Os seis Elementos (quem vence quem, mapas): https://elementalknights.com.br/elementos/
+- Fogo: https://elementalknights.com.br/elementos/fogo.html
+- Gelo: https://elementalknights.com.br/elementos/gelo.html
+- Natureza: https://elementalknights.com.br/elementos/natureza.html
+- Terra: https://elementalknights.com.br/elementos/terra.html
+- Raio: https://elementalknights.com.br/elementos/raio.html
+- Água: https://elementalknights.com.br/elementos/agua.html
+- Versão completa para IA (todas as habilidades): https://elementalknights.com.br/llms-full.txt
 - Instagram (novidades e testes): https://www.instagram.com/elementalknights/
 - Contato: irontyro.games@gmail.com

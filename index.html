@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Elemental Knights — RPG de estratégia elemental para Android</title>
-<meta name="description" content="Elemental Knights é um RPG de estratégia para Android: escolha entre 4 Classes, domine 6 Elementos, monte sua estratégia de habilidades e enfrente Chefes, a Torre e a Dungeon. Batalhas em tempo real com pixel art. Grátis, em português e inglês.">
+<meta name="description" content="RPG de estratégia grátis para Android em pixel art: 4 Classes, 6 Elementos e batalhas em tempo real contra Chefes, a Torre e a Dungeon. Em português e inglês.">
 <meta name="keywords" content="Elemental Knights, RPG, RPG de estratégia, jogo Android, RPG mobile, pixel art, jogo grátis, elementos, chefes, torre, dungeon, IronTyro">
 <link rel="canonical" href="https://elementalknights.com.br/">
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -135,7 +135,7 @@
     "name": "Quais modos de jogo existem?",
     "acceptedAnswer": {
      "@type": "Answer",
-     "text": "Modo História (três Capítulos com Chefes), Jornada Aleatória, Torre (andares cada vez mais difíceis, que recomeçam a cada 15 dias) e Dungeon (um tabuleiro de dados com 60 casas que recomeça toda semana)."
+     "text": "Modo História (quatro Capítulos com Chefes), Jornada Aleatória, Torre (andares cada vez mais difíceis, que recomeçam a cada 15 dias) e Dungeon (um tabuleiro de dados com 60 casas que recomeça toda semana)."
     }
    },
    {
@@ -163,7 +163,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Noto+Sans:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="ek.css?v=7">
+<link rel="stylesheet" href="ek.css?v=8">
 </head>
 <body>
 
@@ -172,12 +172,12 @@
     <a class="studio" href="https://irontyro.github.io/">IronTyro</a>
     <nav aria-label="Seções">
       <a href="#classes">Classes</a>
-      <a href="#elementos">Elementos</a>
       <a href="#mundo">Mundo</a>
       <a href="#modos">Modos</a>
       <a href="#bestiario">Bestiário</a>
       <a href="#forja">Forja</a>
       <a href="como-jogar.html">Como jogar</a>
+      <a href="elementos/">Elementos</a>
       <a href="#perguntas">Perguntas</a>
       <a class="nav-ig" href="https://www.instagram.com/elementalknights/" target="_blank" rel="noopener" aria-label="Instagram @elementalknights"><svg class="ig" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.3"/><circle cx="17.6" cy="6.4" r="1.2" class="dot"/></svg></a>
       <a class="nav-acct" href="conta/">Minha conta</a>
@@ -206,13 +206,13 @@
     <div class="wrap">
       <p class="eyebrow">O que há de novo</p>
       <h2>Entherya cresceu</h2>
-      <p class="intro">Um novo Capítulo, um novo reino, o Grimório renovado e muito mais para fazer entre uma batalha e outra.</p>
+      <p class="intro">Um novo Capítulo na Floresta Densa, o Grimório renovado e muito mais para fazer entre uma batalha e outra.</p>
       <div class="news">
-        <a class="news-card" href="#capitulo3">
-          <img src="img/mapa_minametalmagnetizado.webp" alt="" loading="lazy">
+        <a class="news-card" href="#capitulo4">
+          <img src="img/mapa_florestadensa.webp" alt="" loading="lazy">
           <span class="tag">Novo capítulo</span>
-          <h3>A Mina de Metal Magnetizado</h3>
-          <p>O Capítulo 3 leva os heróis ao subsolo, onde as pedras flutuam e o Guardião do Núcleo desperta.</p>
+          <h3>A Floresta Densa</h3>
+          <p>O Capítulo 4 leva os heróis ao coração da mata, onde o Ent Ancestral, o guardião mais antigo de Entherya, foi corrompido.</p>
         </a>
         <a class="news-card" href="#bestiario">
           <img src="img/tela_best_grimorio.webp" alt="" loading="lazy">
@@ -299,12 +299,12 @@
         </div>
 
         <ul class="el-list">
-          <li style="--e:#ff6a3d"><img src="img/gema_fogo.webp" alt="" loading="lazy"><div><h3>Fogo <span>Queimadura</span></h3><p>Pressão ofensiva crescente.</p><p class="beats">Vence o <b>Gelo</b></p></div></li>
-          <li style="--e:#8fd9e8"><img src="img/gema_gelo.webp" alt="" loading="lazy"><div><h3>Gelo <span>Congelamento</span></h3><p>O mestre do controle do campo de batalha.</p><p class="beats">Vence a <b>Natureza</b></p></div></li>
-          <li style="--e:#6fbf55"><img src="img/gema_natureza.webp" alt="" loading="lazy"><div><h3>Natureza <span>Envenenamento</span></h3><p>Evolução constante, adaptação e persistência: vence por desgaste contínuo.</p><p class="beats">Vence a <b>Terra</b></p></div></li>
-          <li style="--e:#c08a4a"><img src="img/gema_terra.webp" alt="" loading="lazy"><div><h3>Terra <span>Abalo</span></h3><p>Uma fortaleza inabalável que controla a linha de frente e transforma resistência em vantagem.</p><p class="beats">Vence o <b>Raio</b></p></div></li>
-          <li style="--e:#f0c93d"><img src="img/gema_raio.webp" alt="" loading="lazy"><div><h3>Raio <span>Paralisia</span></h3><p>Velocidade, precisão e domínio do ritmo: ataca antes dos adversários.</p><p class="beats">Vence a <b>Água</b></p></div></li>
-          <li style="--e:#4aa3cf"><img src="img/gema_agua.webp" alt="" loading="lazy"><div><h3>Água <span>Lentidão</span></h3><p>O mestre das marés prolonga o combate até assumir o controle total.</p><p class="beats">Vence o <b>Fogo</b></p></div></li>
+          <li style="--e:#ff6a3d"><img src="img/gema_fogo.webp" alt="" loading="lazy"><div><h3><a href="elementos/fogo.html">Fogo</a> <span>Queimadura</span></h3><p>Pressão ofensiva crescente.</p><p class="beats">Vence o <b>Gelo</b></p></div></li>
+          <li style="--e:#8fd9e8"><img src="img/gema_gelo.webp" alt="" loading="lazy"><div><h3><a href="elementos/gelo.html">Gelo</a> <span>Congelamento</span></h3><p>O mestre do controle do campo de batalha.</p><p class="beats">Vence a <b>Natureza</b></p></div></li>
+          <li style="--e:#6fbf55"><img src="img/gema_natureza.webp" alt="" loading="lazy"><div><h3><a href="elementos/natureza.html">Natureza</a> <span>Envenenamento</span></h3><p>Evolução constante, adaptação e persistência: vence por desgaste contínuo.</p><p class="beats">Vence a <b>Terra</b></p></div></li>
+          <li style="--e:#c08a4a"><img src="img/gema_terra.webp" alt="" loading="lazy"><div><h3><a href="elementos/terra.html">Terra</a> <span>Abalo</span></h3><p>Uma fortaleza inabalável que controla a linha de frente e transforma resistência em vantagem.</p><p class="beats">Vence o <b>Raio</b></p></div></li>
+          <li style="--e:#f0c93d"><img src="img/gema_raio.webp" alt="" loading="lazy"><div><h3><a href="elementos/raio.html">Raio</a> <span>Paralisia</span></h3><p>Velocidade, precisão e domínio do ritmo: ataca antes dos adversários.</p><p class="beats">Vence a <b>Água</b></p></div></li>
+          <li style="--e:#4aa3cf"><img src="img/gema_agua.webp" alt="" loading="lazy"><div><h3><a href="elementos/agua.html">Água</a> <span>Lentidão</span></h3><p>O mestre das marés prolonga o combate até assumir o controle total.</p><p class="beats">Vence o <b>Fogo</b></p></div></li>
         </ul>
       </div>
 
@@ -316,6 +316,7 @@
       <div class="strategy">
         <h3>Sua estratégia elemental</h3>
         <p>Escolha o Elemento do herói e, dele, <b>2 Passivas</b> e <b>3 Ativas</b>, incluindo a Ultimate. Em batalha, o combate corre em tempo real e você decide a hora de cada habilidade. Lutar com um Elemento também aumenta a sua <b>Maestria</b> nele.</p>
+        <p><a class="cta-ghost" href="elementos/">Ver os seis Elementos em detalhe</a></p>
       </div>
     </div>
   </section>
@@ -327,12 +328,12 @@
       <p class="intro">Todo mapa favorece dois Elementos: quem luta com eles causa <b>+10% de dano</b> e tem <b>+2% de chance</b> de aplicar o efeito especial. Antes de entrar, o jogo mostra os dois Elementos do terreno e os do inimigo.</p>
       <div class="realms">
         <article class="realm"><img src="img/mapa_arredoresreino.webp" alt="Arredores do Reino" loading="lazy"><div class="realm-body"><h3>Arredores do Reino</h3><p class="pair"><img src="img/gema_terra.webp" alt="">Terra <img src="img/gema_natureza.webp" alt="">Natureza</p></div></article>
-        <article class="realm"><img src="img/mapa_florestadensa.webp" alt="Floresta Densa" loading="lazy"><div class="realm-body"><h3>Floresta Densa</h3><p class="pair"><img src="img/gema_natureza.webp" alt="">Natureza <img src="img/gema_agua.webp" alt="">Água</p></div></article>
+        <article class="realm"><img src="img/mapa_minametalmagnetizado.webp" alt="Mina de Metal Magnetizado" loading="lazy"><div class="realm-body"><h3>Mina de Metal Magnetizado</h3><p class="pair"><img src="img/gema_terra.webp" alt="">Terra <img src="img/gema_raio.webp" alt="">Raio</p></div></article>
         <article class="realm"><img src="img/mapa_ruinasdeserto.webp" alt="Ruínas no Deserto" loading="lazy"><div class="realm-body"><h3>Ruínas no Deserto</h3><p class="pair"><img src="img/gema_terra.webp" alt="">Terra <img src="img/gema_fogo.webp" alt="">Fogo</p></div></article>
         <article class="realm"><img src="img/mapa_praialeste.webp" alt="Praia Leste" loading="lazy"><div class="realm-body"><h3>Praia Leste</h3><p class="pair"><img src="img/gema_agua.webp" alt="">Água <img src="img/gema_fogo.webp" alt="">Fogo</p></div></article>
         <article class="realm"><img src="img/mapa_florestapinheirosnaneve.webp" alt="Floresta de Pinheiros na Neve" loading="lazy"><div class="realm-body"><h3>Pinheiros na Neve</h3><p class="pair"><img src="img/gema_gelo.webp" alt="">Gelo <img src="img/gema_terra.webp" alt="">Terra</p></div></article>
         <article class="realm"><img src="img/mapa_fabricaabandonada.webp" alt="Fábrica Abandonada" loading="lazy"><div class="realm-body"><h3>Fábrica Abandonada</h3><p class="pair"><img src="img/gema_raio.webp" alt="">Raio <img src="img/gema_fogo.webp" alt="">Fogo</p></div></article>
-        <article class="realm realm-new"><img src="img/mapa_minametalmagnetizado.webp" alt="Mina de Metal Magnetizado" loading="lazy"><div class="realm-body"><span class="tag">Novo</span><h3>Mina de Metal Magnetizado</h3><p class="pair"><img src="img/gema_terra.webp" alt="">Terra <img src="img/gema_raio.webp" alt="">Raio</p></div></article>
+        <article class="realm realm-new"><img src="img/mapa_florestadensa.webp" alt="Floresta Densa" loading="lazy"><div class="realm-body"><span class="tag">Capítulo 4</span><h3>Floresta Densa</h3><p class="pair"><img src="img/gema_natureza.webp" alt="">Natureza <img src="img/gema_agua.webp" alt="">Água</p></div></article>
       </div>
     </div>
   </section>
@@ -341,6 +342,16 @@
     <div class="wrap">
       <p class="eyebrow">Para onde ir</p>
       <h2>Modos de jogo</h2>
+
+      <div id="capitulo4" class="chapter">
+        <img src="img/monstros/entancestral.webp" alt="O Ent Ancestral, Chefe do Capítulo 4 na Floresta Densa" loading="lazy">
+        <div class="chapter-text">
+          <span class="tag">Modo História · Capítulo 4</span>
+          <h3>A Floresta Densa</h3>
+          <p>A energia sombria da Arca Primordial desce pelos rios até a Floresta Densa. A mata fica em silêncio, a água escurece e uma geada fora de época congela as folhas. No caminho estão o Javali de Espinhos, a Serpente da Cachoeira, o Cavaleiro do Inverno Eterno e a Aranha das Raízes, e no fundo da floresta espera o Ent Ancestral.</p>
+          <p class="gain">5 etapas de <a href="elementos/natureza.html">Natureza</a> e <a href="elementos/agua.html">Água</a>, com uma surpresa de <a href="elementos/gelo.html">Gelo</a> no meio. Chefes do Nível 16 ao 20.</p>
+        </div>
+      </div>
 
       <div id="capitulo3" class="chapter">
         <img src="img/tela_lineup.webp" alt="Batalha na Mina de Metal Magnetizado contra o Urso das Montanhas, o Lince Tempestuoso e o Cão de Magma" loading="lazy">
@@ -357,7 +368,7 @@
           <img src="img/modo_historia.webp" alt="Modo História" loading="lazy">
           <div class="mode-body">
             <h3>Modo História</h3>
-            <p>Três Capítulos com cinco etapas cada, dos Arredores do Reino até o fundo da Mina. Cada etapa é uma sequência de lutas que termina num Chefe, com falas de cada herói pelo caminho.</p>
+            <p>Quatro Capítulos com cinco etapas cada, dos Arredores do Reino até o coração da Floresta Densa. Cada etapa é uma sequência de lutas que termina num Chefe, com falas de cada herói pelo caminho.</p>
             <p class="gain">Prêmio especial na primeira vez que conclui cada etapa.</p>
           </div>
         </article>
@@ -527,7 +538,7 @@
         </details>
         <details class="qa">
           <summary>Quais modos de jogo existem?</summary>
-          <p>Modo História (três Capítulos com Chefes), Jornada Aleatória, Torre (andares cada vez mais difíceis, que recomeçam a cada 15 dias) e Dungeon (um tabuleiro de dados com 60 casas que recomeça toda semana).</p>
+          <p>Modo História (quatro Capítulos com Chefes), Jornada Aleatória, Torre (andares cada vez mais difíceis, que recomeçam a cada 15 dias) e Dungeon (um tabuleiro de dados com 60 casas que recomeça toda semana).</p>
         </details>
         <details class="qa">
           <summary>O jogo está em português?</summary>
@@ -555,6 +566,8 @@
   <div class="wrap foot-in">
     <span>© 2026 IronTyro</span>
     <nav aria-label="Documentos">
+      <a href="como-jogar.html">Como jogar</a>
+      <a href="elementos/">Elementos</a>
       <a href="https://www.instagram.com/elementalknights/">Instagram</a>
       <a href="https://irontyro.github.io/privacidade.html">Política de Privacidade</a>
       <a href="https://irontyro.github.io/termos.html">Termos de Uso</a>
