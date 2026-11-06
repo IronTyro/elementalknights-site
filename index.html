@@ -163,7 +163,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Noto+Sans:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="ek.css?v=8">
+<link rel="stylesheet" href="ek.css?v=9">
 </head>
 <body>
 
@@ -176,6 +176,8 @@
       <a href="#modos">Modos</a>
       <a href="#bestiario">Bestiário</a>
       <a href="#forja">Forja</a>
+      <a href="#trilha">Trilha</a>
+      <a href="atualizacoes.html">Atualizações</a>
       <a href="como-jogar.html">Como jogar</a>
       <a href="elementos/">Elementos</a>
       <a href="#perguntas">Perguntas</a>
@@ -206,7 +208,7 @@
     <div class="wrap">
       <p class="eyebrow">O que há de novo</p>
       <h2>Entherya cresceu</h2>
-      <p class="intro">Um novo Capítulo na Floresta Densa, o Grimório renovado e muito mais para fazer entre uma batalha e outra.</p>
+      <p class="intro">Um novo Capítulo, um novo morador, prêmios todo dia e, pela primeira vez, música: Entherya agora tem trilha sonora própria.</p>
       <div class="news">
         <a class="news-card" href="#capitulo4">
           <img src="img/mapa_florestadensa.webp" alt="" loading="lazy">
@@ -214,25 +216,26 @@
           <h3>A Floresta Densa</h3>
           <p>O Capítulo 4 leva os heróis ao coração da mata, onde o Ent Ancestral, o guardião mais antigo de Entherya, foi corrompido.</p>
         </a>
-        <a class="news-card" href="#bestiario">
-          <img src="img/tela_best_grimorio.webp" alt="" loading="lazy">
-          <span class="tag">Grimório</span>
-          <h3>Bestiário de descobertas</h3>
-          <p>61 criaturas, cada uma com sua história. As que você nunca enfrentou aparecem só como sombra.</p>
+        <a class="news-card" href="#caldeirao">
+          <img src="img/tela_caldeirao.webp" alt="" loading="lazy">
+          <span class="tag">Novo personagem</span>
+          <h3>Yarik, o Alquimista</h3>
+          <p>O Caldeirão ganhou casa própria e um mestre: o Yarik mexe, prova e solta a magia dos seis Elementos em cada Elixir.</p>
+        </a>
+        <a class="news-card" href="#login-diario">
+          <img src="img/tela_login_diario.webp" alt="" loading="lazy">
+          <span class="tag">Todo dia</span>
+          <h3>Login Diário</h3>
+          <p>A Rainha Elysiana recompensa quem volta: um prêmio por dia e o Grande Prêmio para quem vem os 7 dias da semana.</p>
         </a>
         <a class="news-card" href="#forja">
-          <img src="img/tela_elix_forja.webp" alt="" loading="lazy">
-          <span class="tag">Caldeirão</span>
-          <h3>Elixires de Maestria</h3>
-          <p>Prepare Elixires com Gemas Elementais e Água Purificada para fortalecer sua Maestria.</p>
-        </a>
-        <a class="news-card" href="#modos">
-          <img src="img/tela_dungeon_board.webp" alt="" loading="lazy">
-          <span class="tag">Novo modo</span>
-          <h3>Dungeon</h3>
-          <p>Um tabuleiro de 60 casas: jogue os dados, colete buffs, desvie das armadilhas e vença os Chefes.</p>
+          <img src="img/tela_tier.webp" alt="" loading="lazy">
+          <span class="tag">Equipamentos</span>
+          <h3>Tier e Reciclagem</h3>
+          <p>Suba o Tier das peças com Massa Elemental: cada nível sorteia mais força e pode oferecer um novo atributo.</p>
         </a>
       </div>
+      <p class="more-link"><a href="atualizacoes.html">Ver o histórico de atualizações ›</a></p>
     </div>
   </section>
 
@@ -441,14 +444,65 @@
       </div>
       <div class="forge-text">
         <p class="eyebrow">Yelena, a ferreira</p>
-        <h2>Forja &amp; Caldeirão</h2>
+        <h2>A Forja</h2>
         <ul class="feats">
           <li><b>Forja</b><span>Junte materiais das batalhas e a Yelena forja armas, armaduras e acessórios para todas as Classes. Gemas Elementais influenciam o Elemento da peça.</span></li>
           <li><b>Peças com personalidade</b><span>Além do atributo principal, toda peça traz um atributo secundário. As peças com Elemento ganham ainda um Poder Elemental: mais dano daquele Elemento ou mais chance do seu efeito especial.</span></li>
-          <li><b>Oito raridades</b><span>De Básico a Mítico. Cada raridade pede um Nível mínimo do herói para vestir, então o arsenal cresce junto com você.</span></li>
-          <li><b>Combinação</b><span>Junte peças da mesma raridade e transforme-as numa peça da raridade seguinte.</span></li>
-          <li><b>Caldeirão</b><span>Prepare Elixires de Maestria Pequenos, Médios e Grandes com Gemas Elementais, Água Purificada e materiais das batalhas.</span></li>
+          <li><b>Tier, do 0 ao 5</b><span>Cada Tier aumenta o atributo principal num valor sorteado e pode oferecer outro atributo secundário: você escolhe se troca. Nos Tiers 4 e 5, o Poder Elemental também sobe.</span></li>
+          <li><b>Reciclagem e Massa Elemental</b><span>A peça que sobrou vira Massa Elemental, o ingrediente do Tier. Os Chefes dos Capítulos também deixam um pouco.</span></li>
+          <li><b>Oito raridades e Combinação</b><span>De Básico a Mítico. Junte peças da mesma raridade e transforme-as numa peça da raridade seguinte.</span></li>
         </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="caldeirao" class="band band-cauldron">
+    <div class="wrap forge forge-flip">
+      <div class="forge-text">
+        <p class="eyebrow">Yarik, o Alquimista</p>
+        <h2>O Caldeirão</h2>
+        <ul class="feats">
+          <li><b>Elixires de Maestria</b><span>Pequenos, Médios e Grandes: cada um sobe a Maestria de um Elemento, e o Grande leva uma Orbe Elemental.</span></li>
+          <li><b>Um por vez, com calma</b><span>O Yarik prepara um Elixir de cada vez. Com pressa? Dá para acelerar.</span></li>
+          <li><b>Ingredientes das batalhas</b><span>Gemas do Elemento, Água Purificada e os materiais que os monstros deixam.</span></li>
+        </ul>
+        <div class="elixirs" aria-label="Elixires dos seis Elementos">
+          <img src="img/elixir_fogo.webp" alt="Elixir de Fogo" loading="lazy"><img src="img/elixir_agua.webp" alt="Elixir de Água" loading="lazy"><img src="img/elixir_terra.webp" alt="Elixir de Terra" loading="lazy"><img src="img/elixir_gelo.webp" alt="Elixir de Gelo" loading="lazy"><img src="img/elixir_raio.webp" alt="Elixir de Raio" loading="lazy"><img src="img/elixir_natureza.webp" alt="Elixir de Natureza" loading="lazy">
+        </div>
+      </div>
+      <div class="forge-art alch-art" aria-label="Yarik, o Alquimista, preparando um Elixir no caldeirão" role="img">
+        <div class="smith alch">
+          <img class="f f1" src="img/yarik_action1.webp" alt="" loading="lazy">
+          <img class="f f2" src="img/yarik_action2.webp" alt="" loading="lazy">
+          <img class="f f3" src="img/yarik_action3.webp" alt="" loading="lazy">
+          <img class="f f4" src="img/yarik_action4.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="login-diario" class="band band-queen">
+    <div class="wrap queen">
+      <img class="queen-art" src="img/busto_rainha_alegre.webp" alt="Rainha Elysiana" loading="lazy">
+      <div>
+        <p class="eyebrow">Rainha Elysiana</p>
+        <h2>Volte todo dia</h2>
+        <p>A cada dia que você entra no jogo, a Rainha Elysiana entrega o próximo prêmio da semana: Prata, materiais, Gemas, Elixires e, no 7º dia, o Grande Prêmio com Ouro e Pedra Preciosa. Faltou um dia? Você continua de onde parou.</p>
+        <p class="note">Junto com as Missões Diárias e o Baú do dia, sempre tem um motivo para passar em Entherya.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="trilha" class="band band-music">
+    <div class="wrap">
+      <p class="eyebrow">Trilha sonora original</p>
+      <h2>Ouça Entherya</h2>
+      <p class="intro">Cada lugar tem a sua música: a Base, a Forja, o Caldeirão, a Loja, o Grimório, as batalhas e os Chefes. Escute alguns temas:</p>
+      <div class="tracks">
+        <figure class="track"><figcaption><b>Tema de Elemental Knights</b><span>Tela de título</span></figcaption><audio controls preload="none" src="audio/mus_titulo.ogg"></audio></figure>
+        <figure class="track"><figcaption><b>Batalha</b><span>As lutas da Jornada</span></figcaption><audio controls preload="none" src="audio/mus_batalha.ogg"></audio></figure>
+        <figure class="track"><figcaption><b>O Caldeirão do Yarik</b><span>Alquimia</span></figcaption><audio controls preload="none" src="audio/mus_alquimia.ogg"></audio></figure>
+        <figure class="track"><figcaption><b>Chefe Final</b><span>O último Chefe de cada Capítulo</span></figcaption><audio controls preload="none" src="audio/mus_chefe_final.ogg"></audio></figure>
       </div>
     </div>
   </section>
@@ -459,7 +513,7 @@
       <h2>Muito mais para fazer</h2>
       <div class="extras">
         <div class="extra"><img src="img/icone_mod_conquistas.webp" alt=""><h3>Missões e Conquistas</h3><p>Missões novas todo dia e Conquistas para guardar de lembrança.</p></div>
-        <div class="extra"><img src="img/icone_mod_login.webp" alt=""><h3>Baú do dia</h3><p>Junte as chaves das missões diárias e abra o Baú.</p></div>
+        <div class="extra"><img src="img/icone_mod_login.webp" alt=""><h3>Login Diário e Baú do dia</h3><p>Um prêmio por dia de login e o Baú das missões diárias.</p></div>
         <div class="extra"><img src="img/icone_mod_loja.webp" alt=""><h3>Mercado</h3><p>Venda e compre equipamentos de outros jogadores com Prata.</p></div>
         <div class="extra"><img src="img/icone_mod_calendario.webp" alt=""><h3>Farm Offline</h3><p>Seu herói continua juntando recompensas enquanto você está fora.</p></div>
         <div class="extra"><img src="img/icone_mod_missoes.webp" alt=""><h3>Ranking</h3><p>Dispute o maior Nível e a maior Maestria em cada Elemento.</p></div>
@@ -568,6 +622,7 @@
     <nav aria-label="Documentos">
       <a href="como-jogar.html">Como jogar</a>
       <a href="elementos/">Elementos</a>
+      <a href="atualizacoes.html">Atualizações</a>
       <a href="https://www.instagram.com/elementalknights/">Instagram</a>
       <a href="https://irontyro.github.io/privacidade.html">Política de Privacidade</a>
       <a href="https://irontyro.github.io/termos.html">Termos de Uso</a>

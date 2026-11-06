@@ -10,12 +10,17 @@
 - Batalha: barra ATB (azul) enche conforme a Velocidade; o herói usa a primeira habilidade da Fila (3 lugares) ou um Ataque Básico.
 - Modos: Modo História (4 Capítulos com Chefes; o Capítulo 4, na Floresta Densa, termina no Ent Ancestral, Nível 20), Jornada Aleatória, Torre (reinicia a cada 15 dias) e Dungeon (tabuleiro de dados com 60 casas, reinicia toda semana).
 - Mapas de Entherya: Arredores do Reino, Floresta Densa, Ruínas no Deserto, Praia Leste, Floresta de Pinheiros na Neve, Fábrica Abandonada, Mina de Metal Magnetizado. Cada mapa dá +10% de dano a dois Elementos.
-- Progressão: Nível e Pontos de atributo, Maestria por Elemento, equipamentos de Básico a Mítico (Forja da Yelena, Combinação, Mercado entre jogadores), Elixires de Maestria no Caldeirão.
+- Progressão: Nível e Pontos de atributo, Maestria por Elemento, equipamentos de Básico a Mítico (Forja da Yelena, Combinação, Mercado entre jogadores).
+- Tier de equipamento (0 a 5): cada Tier aumenta o atributo principal num valor sorteado e pode oferecer outro atributo secundário; nos Tiers 4 e 5 sobe o Poder Elemental. Custa Prata, Massa Elemental (vem de reciclar peças e dos Chefes) e materiais.
+- Caldeirão do Yarik, o Alquimista: Elixires de Maestria Pequenos, Médios e Grandes, um por vez.
+- Login Diário da Rainha Elysiana: um prêmio por dia de login, em sequência; o 7º é o Grande Prêmio. Também há Missões Diárias com o Baú do dia.
+- Trilha sonora original: música própria para cada tela, batalha, Chefe e diálogo.
 - Bestiário com 61 criaturas que aparecem como silhueta até serem enfrentadas.
 
 ## Links
 - Site oficial: https://elementalknights.com.br/
 - Como jogar (guia completo): https://elementalknights.com.br/como-jogar.html
+- Atualizações (o que mudou em cada versão): https://elementalknights.com.br/atualizacoes.html
 - Os seis Elementos (quem vence quem, mapas): https://elementalknights.com.br/elementos/
 - Fogo: https://elementalknights.com.br/elementos/fogo.html
 - Gelo: https://elementalknights.com.br/elementos/gelo.html
